@@ -2,10 +2,6 @@
   Desafio Frontend Books - ReactJS
 </h4>
 
-<p align="center">
-  <img alt="ioasys Books" src=".github/layout.png" width="100%">
-</p>
-
 <br />
 
 ✓✓ Projeto
