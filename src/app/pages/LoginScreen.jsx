@@ -136,7 +136,6 @@ export default function LoginScreen(props) {
     
     axios.post('/auth/sign-in', loginForm)
       .then((response) => {
-      console.log('response', response.data)
       sessionStorage.setItem('user', JSON.stringify(response.data) )
       sessionStorage.setItem('authorization', "Bearer "+response.headers['authorization'])
       sessionStorage.setItem('refresh-token', response.headers['refresh-token'])
